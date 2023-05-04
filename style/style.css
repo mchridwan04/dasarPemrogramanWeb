@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+/* Header */
+
+nav {
+    background-color: #EFF5F5;
+    height: 65px;
+    color: black;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+
+li {
+    position: relative;
+    line-height: 50px;
+    float: left;
+    padding: 8px 16px;
+    display: block;
+    transition: .5s;
+}
+
+.profil {
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+main {
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.content {
+    width: 70%;
+    height: 100%;
+    display: block;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+footer {
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.profil-asside {
+    border-radius: 50%;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    padding-top: 20px;
+    width: auto;
+}
+
+.title {
+    width: 170px;
+}
+
+.gap {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+td {
+    margin: 50px;
+}
+
+.nav {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.jarak {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.jarak-1 {
+    padding-right: 30px;
+    margin-right: 30px;
+}
+
+.jarak-2 {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 40px;
+}
+
+.bg {
+    background-color: #D6E4E5;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-1 {
+    background-color: #EB6440;
+    border-radius: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 30px;
+}
+
+.col {
+    color: #EB6440;
+    font-weight: 900;
+}
+
+.pad {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 80px;
+}
+
+
+
+/* Layoust Mobile */
+@media screen and (max-width: 600px) {
+    body {
+        width: auto;
+    }
+
+    main {
+        height: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    .content {
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+
+    aside {
+        float: left;
+        width: 90%;
+    }
+
+    footer {
+        width: 100%;
+        float: left;
+    }
+
+    li .profil {
+        display: none;
+    }
+
+    li .nav{
+        float: left;
+    }
+
+    ul {
+        padding-right: 30px;
+        padding-left: 40px;
+    }
+
+    nav {
+        text-align: center;
+    }
+    
+}
+
+
+/* Layouts Tablet */
+@media screen and (max-width: 992px) {
+    body {
+        width: auto;
+    }
+
+
+    .content {
+        margin: auto;
+        width: 100%;
+        float: left;
+        padding: auto;
+    }
+
+    aside {
+        float: left;
+        width: 95%;
+        margin-top: 30px;
+        margin-left: 18px;
+    }
+
+    footer {
+        width: 100%;
+        float: left;
+    }
+
+    .jarak-1 {
+        padding-right: 0px;
+        margin-right: 18px;
+        margin-left: 18px;
+    }
+
+    .jarak {
+        margin-right: 18px;
+        margin-left: 18px;
+    }
+
+    .jarak-2 {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .bg-1 {
+        margin-right: 18px;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+}
